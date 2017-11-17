@@ -32,7 +32,7 @@ body {
   align-items: center;*/
 }
 .swiper-box{
-  overflow-y: hidden;
+  overflow-y: auto;
   position: relative;
   width: 100%;
 }
