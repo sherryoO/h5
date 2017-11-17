@@ -157,7 +157,8 @@ $(function () {
   function aa(){
     setTimeout(function(){
       end_time = (new Date()).getTime();
-      $(myVideo).height($(myVideo).width()*0.58).width('100%');
+      $(myVideo).height('100%').width('100%');
+      // $(myVideo).height($(myVideo).width()*0.58).width('100%');
       //console.log(start_time,end_time);
       //console.log(end_time - start_time);
       //document.getElementsByClassName('mainBox')[0].style.display = 'block';
@@ -165,7 +166,7 @@ $(function () {
 //    document.body.style.background = '#000';
       clearInterval(t);
 //    $('#video1').get(0).play();
-		myVideo.play();
+		    myVideo.play();
 		document.addEventListener("WeixinJSBridgeReady", function () {
 	      myVideo.play();
 	    }, false);
