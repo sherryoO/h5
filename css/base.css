@@ -94,19 +94,23 @@ element::-webkit-scrollbar{
 	/*height: 13.52%;*/
 }
 .page3item2{
-	top: 23.03%;
+	top: 31.03%;
 	/*height: 44.97%;*/
 }
 .page3item3{
-	top: 73.85%;
+	top: 47.85%;
 	/*height: 15.09%;*/
 }
 .page4item1{
-	top: 6.91%;
+	top: 4.91%;
 	/*height: 25.45%;*/
 }
 .page4item2{
-	top: 38.21%;
+	top: 21.21%;
+	/*height: 29.4%;*/
+}
+.page4item4{
+	top: 47.21%;
 	/*height: 29.4%;*/
 }
 .page4item3{

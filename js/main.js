@@ -165,28 +165,28 @@ $(function () {
       $('.swiper-wrapper .swiper-slide').eq(0).addClass('startAnimate')
     },1000)
   }
-  function audioAutoPlay(id){
-    var audio = document.getElementById(id);
-    audio.play();
-    document.addEventListener("WeixinJSBridgeReady", function () {
-      audio.play();
-    }, false);
-    document.addEventListener('YixinJSBridgeReady', function() {
-      audio.play();
-    }, false);
-  }
-  audioAutoPlay('music');
-  $('.musicIco img').click(function(){
-    if(!musicIco.paused){
-      musicIco.pause();
-      //$(this).addClass('active')
-      $(this).attr('src','images/video.png')
-    }else{
-      musicIco.play();
-      //$(this).removeClass('active')
-      $(this).attr('src','images/play.png')
-    }
-  })
+//function audioAutoPlay(id){
+//  var audio = document.getElementById(id);
+//  audio.play();
+//  document.addEventListener("WeixinJSBridgeReady", function () {
+//    audio.play();
+//  }, false);
+//  document.addEventListener('YixinJSBridgeReady', function() {
+//    audio.play();
+//  }, false);
+//}
+//audioAutoPlay('music');
+//$('.musicIco img').click(function(){
+//  if(!musicIco.paused){
+//    musicIco.pause();
+//    //$(this).addClass('active')
+//    $(this).attr('src','images/video.png')
+//  }else{
+//    musicIco.play();
+//    //$(this).removeClass('active')
+//    $(this).attr('src','images/play.png')
+//  }
+//})
   var myVideo = document.getElementById("video1");
   $('.videoBg').click(function () {
     if(myVideo.paused) {
