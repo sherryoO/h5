@@ -153,6 +153,7 @@ $(function () {
       }
     }
   },100);
+  var myVideo = document.getElementById("video1");
   function aa(){
     setTimeout(function(){
       end_time = (new Date()).getTime();
@@ -162,7 +163,13 @@ $(function () {
       document.getElementsByClassName('loadImgBox')[0].style.display = 'none';
 //    document.body.style.background = '#000';
       clearInterval(t);
-      $('#video1').get(0).play();
+//    $('#video1').get(0).play();
+		document.addEventListener("WeixinJSBridgeReady", function () {
+	      myVideo.play();
+	    }, false);
+	    document.addEventListener('YixinJSBridgeReady', function() {
+	      myVideo.play();
+	    }, false);
       $('.swiper-wrapper .swiper-slide').eq(0).addClass('startAnimate')
     },1000)
   }
@@ -188,7 +195,7 @@ $(function () {
 //    $(this).attr('src','images/play.png')
 //  }
 //})
-  var myVideo = document.getElementById("video1");
+//var myVideo = document.getElementById("video1");
   $('.videoBg').click(function () {
     if(myVideo.paused) {
       myVideo.play();
