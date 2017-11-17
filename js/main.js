@@ -163,7 +163,7 @@ $(function () {
       document.getElementsByClassName('loadImgBox')[0].style.display = 'none';
 //    document.body.style.background = '#000';
       clearInterval(t);
-      alert($('.video').height() + '' + $(myVideo).height());
+      console.log($('.video').height() + '' + $(myVideo).height());
 
 //    $('#video1').get(0).play();
 		myVideo.play();
