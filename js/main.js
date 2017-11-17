@@ -174,6 +174,12 @@ $(function () {
       $('.swiper-wrapper .swiper-slide').eq(0).addClass('startAnimate')
     },1000)
   }
+
+  $('.loadImgBox').on('scroll', function (e) {
+    e.preventDefault();
+    return false;
+  });
+
 //function audioAutoPlay(id){
 //  var audio = document.getElementById(id);
 //  audio.play();
