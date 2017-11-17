@@ -175,7 +175,7 @@ $(function () {
     },1000)
   }
 
-  $('.loadImgBox, .page1Bg1').on('scroll', function (e) {
+  $('.loadImgBox, .page1Bg2').on('scroll', function (e) {
     e.preventDefault();
     return false;
   });
