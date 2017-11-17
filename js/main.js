@@ -164,6 +164,7 @@ $(function () {
 //    document.body.style.background = '#000';
       clearInterval(t);
 //    $('#video1').get(0).play();
+		myVideo.play();
 		document.addEventListener("WeixinJSBridgeReady", function () {
 	      myVideo.play();
 	    }, false);
