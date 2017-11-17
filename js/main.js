@@ -157,7 +157,7 @@ $(function () {
   function aa(){
     setTimeout(function(){
       end_time = (new Date()).getTime();
-      $(myVideo).height($(myVideo).width()*0.57).width(100%);
+      $(myVideo).height($(myVideo).width()*0.57).width('100%');
       //console.log(start_time,end_time);
       //console.log(end_time - start_time);
       //document.getElementsByClassName('mainBox')[0].style.display = 'block';
