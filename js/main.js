@@ -162,6 +162,7 @@ $(function () {
       document.getElementsByClassName('loadImgBox')[0].style.display = 'none';
       document.body.style.background = '#000';
       clearInterval(t);
+      $('#video1').get(0).play();
       $('.swiper-wrapper .swiper-slide').eq(0).addClass('startAnimate')
     },1000)
   }
@@ -191,29 +192,29 @@ $(function () {
   $('.videoBg').click(function () {
     if(myVideo.paused) {
       myVideo.play();
-      musicIco.pause();
+//    musicIco.pause();
       $('.musicIco img').attr('src','images/video.png')
       $('.videoClick').attr('src','images/play.png')
     } else {
       myVideo.pause();
-      musicIco.play();
+//    musicIco.play();
       $('.musicIco img').attr('src','images/play.png')
       $('.videoClick').attr('src','images/video.png')
       //myVideo.stop();
     }
   })
   myVideo.addEventListener("ended", function () {
-    musicIco.play();
+//  musicIco.play();
     $('.musicIco img').attr('src','images/play.png')
     $('.videoClick').attr('src','images/video.png')
   }, false);
   myVideo.addEventListener("pause", function () {
-    musicIco.play();
+//  musicIco.play();
     $('.musicIco img').attr('src','images/play.png')
     $('.videoClick').attr('src','images/video.png')
   }, false);
   myVideo.addEventListener("play", function () {
-    musicIco.pause();
+//  musicIco.pause();
     $('.musicIco img').attr('src','images/video.png')
     $('.videoClick').attr('src','images/play.png')
   }, false);
