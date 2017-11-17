@@ -62,11 +62,13 @@ body {
   left: 15px;
 }
 .page1img1{
-  width: 90%;
+  width: 83.34%;
   position: absolute;
-  bottom: 27%;
-  left: 5%;
-  opacity: 0;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+/*  opacity: 0;*/
 }
 .page1img2{
   width: 70%;
@@ -98,7 +100,7 @@ body {
 .video{
   width: 70%;
   position: absolute;
-  bottom: 38%;
+  bottom: 28%;
   left: 15%;
   background: #000;
 }
