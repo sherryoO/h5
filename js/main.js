@@ -160,7 +160,7 @@ $(function () {
       //console.log(end_time - start_time);
       //document.getElementsByClassName('mainBox')[0].style.display = 'block';
       document.getElementsByClassName('loadImgBox')[0].style.display = 'none';
-      document.body.style.background = '#000';
+//    document.body.style.background = '#000';
       clearInterval(t);
       $('#video1').get(0).play();
       $('.swiper-wrapper .swiper-slide').eq(0).addClass('startAnimate')
