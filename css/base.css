@@ -1,0 +1,226 @@
+html, body, div, span,h1, h2, h3, h4, h5, h6, p,a,img, ul, li,form, label,table, tbody,select,option, tfoot, thead, tr, th, td, input,button,i{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: normal;
+    font-style: inherit;
+    list-style: none;
+    font-family: '微软雅黑';
+    vertical-align: baseline;
+    outline: none;
+}
+body{
+    -webkit-user-select: none; /*禁止页面文字选择*/
+    -webkit-text-size-adjust: none; /*禁止文字自动调整大小*/
+    -webkit-overflow-scrolling: touch; /*局部滚动*/
+}
+a,img{
+    -webkit-touch-callout:none;/*禁用长按页面时的弹出菜单(iOS下有效)*/
+}
+/*去除webkit的滚动条*/
+element::-webkit-scrollbar{
+    display: none;
+}
+/*统一基本样式*/
+@media screen and (min-width: 320px) {
+    html {font-size: 12px;}
+}
+@media screen and (min-width: 360px) {
+    html {font-size: 14px;}
+}
+@media screen and (min-width: 400px) {
+    html {font-size: 16px;}
+}
+@media screen and (min-width: 440px) {
+    html {font-size: 18px;}
+}
+.pageList2 .swiper-box{
+	width: 100%;
+	background: url(../images/pageBg.jpg) no-repeat center;
+	background-size: 100% 100%;
+	position: relative;
+} 
+.pageList4 .swiper-box{
+	width: 100%;
+	background: url(../images/pageBg2.jpg) no-repeat center;
+	background-size: 100% 100%;
+	position: relative;
+}
+.pageList5 .swiper-box{
+	width: 100%;
+	background: url(../images/pageBg5.jpg) no-repeat center;
+	background-size: 100% 100%;
+	position: relative;
+	box-sizing: border-box;
+	display: block !important;
+}
+.inputBox{
+	position: absolute;
+	top: 25%;
+	width: 100%;
+}
+.pageitem{
+	position: absolute;
+	width: 83.34%;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+}
+.pageitem img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.page2item0{
+	width: 74.63%;
+	/*height: 14.28%;*/
+	top: 5.82%;
+}
+.page2item1{
+	/*height: 19.52%;*/
+	top: 23.58%;
+}
+.page2item2{
+	/*height: 19.52%;*/
+	top: 45.7%;
+}
+.page2item3{
+	top: 68.06%;
+	/*height: 21.88%;*/
+}
+.page3item1{
+	top: 6.85%;
+	/*height: 13.52%;*/
+}
+.page3item2{
+	top: 23.03%;
+	/*height: 44.97%;*/
+}
+.page3item3{
+	top: 73.85%;
+	/*height: 15.09%;*/
+}
+.page4item1{
+	top: 6.91%;
+	/*height: 25.45%;*/
+}
+.page4item2{
+	top: 38.21%;
+	/*height: 29.4%;*/
+}
+.page4item3{
+	width: 100%;
+	/*height: 23.1%;*/
+	bottom: 0;
+}
+.pageList5 .page5logo{
+	display: block;
+	position: absolute;
+	width: 27.69%;
+	top: 2.55%;
+	left: 4.26%;
+}
+.pageList5 .page5logo img{
+	display: block;
+	width: 100%;
+}
+.pageList5 .yuan{
+	width: 5rem;
+	height: 5rem;
+	position: absolute;
+	background: url(../images/yuan_03.png) no-repeat center;
+	background-size: 100%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 4%;
+}
+.pageList5 .apply{
+	width: 4.85rem;
+	height: 1.2rem;
+	position: absolute;
+	background: url(../images/apply_03.png) no-repeat center;
+	background-size: 100%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 18%;
+}
+.pageList5 .userName,.pageList5 .tel{
+	display: block;
+	width: 66%;
+	border-radius: 9px;
+	text-indent: 10px;
+	height: 2.4rem;
+	margin: 0 auto 3%;
+	font-size: 1.1rem;
+}
+.pageList5 .line{
+	width: 54.82%;
+	height: 1px;
+	background-color: #6c3a8d;
+	margin: 0 auto 4%;;
+}
+.pageList5 .acreage,.pageList5 .style,.pageList5 .budget{
+	display: block;
+	width: 66%;
+	height: 2.4rem;
+	margin: 0 auto 3%;
+	border-radius: 6px;
+	border: 1px solid #FFFFFF;
+	text-indent: 10px;
+	color: #FFFFFF;
+	background-color: #421a7e;
+	font-size: 1.1rem;
+}
+.pageList5 #sendBtn{
+	display: block; 
+	width: 64.82%;
+	height: 3.2rem;
+	background-color: #fccb00;
+	margin: 0 auto 3%;
+	text-decoration: none;
+	text-align: center;
+	line-height: 3.2rem;
+	color: #5c2372;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+.pageList5 .hotline{
+	width: 24%;
+	margin: 0 auto;
+	text-align: center;
+	color: #fccb00;
+	font-size: 1rem;
+	background: url(../images/phone_07.png) no-repeat left center;
+	background-size: 12%;
+}
+.pageList5 .hotlineTel{
+	display: block;
+	width: 36%;
+	height: 2rem;
+	line-height: 2rem;
+	text-decoration: none;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+	color: #fccb00;
+	font-size: 1.4rem;
+	margin-top: 2%;
+	background: url(../images/rightIcon_10.png) no-repeat right center;
+	background-size: 4%;
+}
+.pageList5 .company{
+	width: 100%;
+	height: 6.67%;
+	position: absolute;
+	bottom: 1%;
+}
+.pageList5 .company p{
+	text-align: center;
+	color: #7f7c9c;
+	line-height: 20px;
+	font-size: 10px;
+}
